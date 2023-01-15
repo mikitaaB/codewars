@@ -1,0 +1,1 @@
+const findUniq = (arr) => arr.find(el => arr.lastIndexOf(el) === arr.indexOf(el));
