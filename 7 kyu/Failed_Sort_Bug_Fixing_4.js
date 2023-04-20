@@ -1,3 +1,3 @@
-var sortArray = function(value) {
+const sortArray = value => {
     return value.split('').sort((c, p) => c - p ).join('');
 }

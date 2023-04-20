@@ -1,0 +1,1 @@
+const createMessage = (word) => (next) => next ? createMessage(`${word} ${next}`) : word;
